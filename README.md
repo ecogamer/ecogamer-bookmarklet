@@ -1,4 +1,16 @@
-ecogamer-bookmarklet
-====================
+Economical Gamer Price List Bookmarklet
+=======================================
 
-Grab a list of game prices from a website
+Generate a list of games and their prices by scraping the currently opened page.
+
+How To Use
+----------
+
+Instructions coming soon.
+
+Contributing
+------------
+
+Requirements:
+* Node
+* Grunt
