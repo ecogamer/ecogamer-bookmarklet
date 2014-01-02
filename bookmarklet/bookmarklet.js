@@ -1,0 +1,1 @@
+javascript:(function(){if(window.ecogamerBookmarklet!==undefined){ecogamerBookmarklet();}else{document.body.appendChild(document.createElement('script')).src='//www.ecogamer.com.au/bookmarklet/initilise.js?';}})();
