@@ -1,1 +1,2 @@
+// TODO: if statement to select between http or https and port number based on http
 javascript:(function(){if(window.ecogamerBookmarklet!==undefined){ecogamerBookmarklet();}else{document.body.appendChild(document.createElement('script')).src='//localhost:8000/initilise.js?';}})();

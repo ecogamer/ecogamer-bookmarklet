@@ -72,6 +72,13 @@ module.exports = function(grunt) {
                     port: 8000,
                     base: 'bookmarklet'
                 }
+            },
+            serverSecure: {
+                options: {
+                    protocol: 'https',
+                    port: 8001,
+                    base: 'bookmarklet'
+                }
             }
         }
     });
