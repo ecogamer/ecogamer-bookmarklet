@@ -22,7 +22,7 @@
         // include js and CSS
     });
 
-    // Run bookmarlet
+    // Run bookmarklet
     var ecogamerBookmarklet = function() {
         alert('test');
     };
