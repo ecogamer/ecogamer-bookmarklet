@@ -1,8 +1,11 @@
 (function(){
 
     // Initilisation script should only run once
+    alert('test');
 
     // Load jQuery
+    // TODO: if jquery is present, move it to something, load my jquery, put my jquery into noconflict and put original jquery back. ALTERNATIVELY use requirejs grunt plugin?
+    var done = false;
     var jQueryVersion = '1.9.1';
     var jQueryScriptTag = document.createElement('script');
     jQueryScriptTag.src = '//ajax.googleapis.com/ajax/libs/jquery/' + jQueryVersion + '/jquery.min.js';

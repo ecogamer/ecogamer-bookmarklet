@@ -1,1 +1,1 @@
-javascript:(function(){if(window.ecogamerBookmarklet!==undefined){ecogamerBookmarklet();}else{document.body.appendChild(document.createElement('script')).src='//localhost:8000/initialise.js?';}})();
+javascript:(function(){if(window.ecogamerBookmarklet!==undefined){ecogamerBookmarklet();}else{document.body.appendChild(document.createElement('script')).src='//localhost:8000/initilise.js?';}})();
