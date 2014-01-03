@@ -8,13 +8,12 @@ Instructions coming soon.
 
 ## How to Contribute
 
-### Requirements
-* Node
-* Grunt
+### Developer Requirements
+Grunt - Read more here: http://gruntjs.com/getting-started
 
-### Setup
-Create a local development bookmarklet using the "bookmarklet-local.js" file. Either by clicking and dragging into your bookmark toolbar or copy/paste the file content into the URL or Address field for a new bookmark. Use this bookmarklet instead of the regular one when doing development.
+### Initial Setup
+Create a local development bookmarklet using the "bookmarklet-local.js" file. Use this bookmarklet instead of the regular one when doing development as this one points to your local files. To make the bookmarklet copy/paste the file content into the URL or Address field for a new bookmark. Alternatively you can click and drag the file (once downloaded/cloned locally) into your bookmark toolbar.
 
-### When Coding
-For convenience a server and grunt watch task has been set up. For the local bookmarklet to work you must be running this task:
-    grunt dev
+### While Developing
+For convenience a server and grunt watch task have been set up. For the local bookmarklet to work you must be running this task in the command line:
+`grunt dev`
